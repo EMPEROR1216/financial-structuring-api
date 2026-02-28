@@ -1,8 +1,8 @@
 from typing import List
-from fastapi import UploadFile, File
+
 from fastapi import FastAPI, File, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
-from typing import List
 from fastapi.openapi.utils import get_openapi
 import os
 
@@ -14,6 +14,15 @@ from app.pipeline.aggregator import merge_data
 from app.utils.csv_converter import create_csv
 
 app = FastAPI()
+
+# Enable CORS for all origins, methods, and headers
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 UPLOAD_FOLDER = "app/uploads"
 
