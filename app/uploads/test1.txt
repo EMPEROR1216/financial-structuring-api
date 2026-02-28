@@ -1,0 +1,4 @@
+Vendor: DEF Ltd
+Amount: 7000
+Tax: 800
+Date: 2024-03-01

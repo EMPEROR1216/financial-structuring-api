@@ -1,0 +1,4 @@
+date,vendor,amount,tax,source,record_id
+2024-10-01,LLM Ltd,9000.0,1100.0,test2.txt,4a3fe54d-0a88-41b7-9c96-8d3c3d57f6c7
+,test1,0.0,0.0,test1.txt,0e4305d2-da0a-444b-8ee2-6e383a839ac9
+,test,0.0,0.0,test.txt,9ac58888-a207-4810-9067-fc6c778b7e13

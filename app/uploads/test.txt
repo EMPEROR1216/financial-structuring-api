@@ -1,0 +1,4 @@
+Vendor: ABC Ltd
+Amount: 5000
+Tax: 500
+Date: 2024-01-01

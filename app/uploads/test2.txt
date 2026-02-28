@@ -1,0 +1,4 @@
+Vendor: LLM Ltd
+Amount: 9000
+Tax: 1100
+Date: 2024-10-01
